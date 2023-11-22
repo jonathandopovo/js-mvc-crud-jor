@@ -19,13 +19,16 @@ app.get("/api/data", async (req, res) => {
 
 app.post("/api/save", async (req, res) => {
   try {
-    const data = req.body;
-    res.json(JSON.parse(data));
-    await fs.writeFile("data.json", JSON.stringify(data, null, 2), "utf8");
-    res.json({ message: "Dados salvos com sucesso!" });
+    const novosDados = req.body;
+    await fs.writeFile(
+      "data.json",
+      JSON.stringify(novosDados, null, 2),
+      "utf8"
+    );
+    res.json({ message: "Dados salvos com sucesso" });
   } catch (error) {
-    console.log(error);
-    res.status(500).json({ error: "Não foi possivel salvar os dados!" });
+    console.error(error);
+    res.status(500).json({ error: "Não foi possível salvar os dados." });
   }
 });
 
