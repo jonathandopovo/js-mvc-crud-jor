@@ -18,7 +18,7 @@
     ```
 4. Suba o servidor:
     ```
-    node server.js
+    npm start
     ```
 5. Agora basta abrir o arquivo index.html na pasta raiz do diretório.
 
