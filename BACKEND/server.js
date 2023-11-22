@@ -18,6 +18,7 @@ app.get("/api/data", async (req, res) => {
 });
 
 app.post("/api/save", async (req, res) => {
+  console.log(req.body)
   try {
     const novosDados = req.body;
     await fs.writeFile(
