@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Jonathan",
+    "idade": 21,
+    "login": "jonathan",
+    "senha": "jonathan"
+  },
+  {
+    "nome": "Joao Lucas",
+    "idade": 17,
+    "login": "joaolucas",
+    "senha": "joaolucas"
+  },
+  {
+    "nome": "Leo",
+    "idade": 18,
+    "login": "leo",
+    "senha": "leo"
+  },
+  {
+    "nome": "Maicon",
+    "idade": 21,
+    "login": "maicon",
+    "senha": "maicon"
+  },
+  {
+    "nome": "Natan",
+    "idade": 20,
+    "login": "natan",
+    "senha": "natan"
+  },
+  {
+    "nome": "João Bosco",
+    "idade": 17,
+    "login": "joaobosco",
+    "senha": "joaobosco"
+  },
+  {
+    "nome": "Vitor",
+    "idade": 29,
+    "login": "vitor",
+    "senha": "vitor"
+  },
+  {
+    "nome": "Gabriel",
+    "idade": 22,
+    "login": "gabriel",
+    "senha": "gabriel"
+  },
+  {
+    "nome": "Isaac",
+    "idade": 22,
+    "login": "isaac",
+    "senha": "isaac"
+  },
+  {
+    "nome": "Thaíssa",
+    "idade": 18,
+    "login": "thaissa",
+    "senha": "thaissa"
+  }
+]
