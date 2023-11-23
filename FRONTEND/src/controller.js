@@ -37,17 +37,17 @@ const handleSubmit = (event) => {
 
 const addUser = (newUser) => {
   data.push(newUser);
-  dataService.saveData(data);
+  dataService.save(data);
 };
 
 const updateUser = (index, userToUpdate) => {
   data[index] = userToUpdate;
-  dataService.saveData(data);
+  dataService.save(data);
 };
 
 const deleteUser = (index) => {
   data.splice(index, 1);
-  dataService.saveData(data);
+  dataService.save(data);
 };
 
 const handleClick = (event) => {

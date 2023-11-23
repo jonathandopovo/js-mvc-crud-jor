@@ -9,7 +9,7 @@ const dataService = {
       return [];
     }
   },
-  saveData: async (novosDados) => {
+  save: async (novosDados) => {
     try {
       const response = await fetch("http://localhost:8071/api/save", {
         method: "POST",
