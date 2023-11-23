@@ -3,8 +3,8 @@ import { tableComponent } from "./table-component.js";
 
 const view = {
   render: () => {
-    formComponent.build();
-    tableComponent.build();
+    formComponent.render();
+    tableComponent.render();
   },
   update: (users, user) => {
     tableComponent.update(users);
