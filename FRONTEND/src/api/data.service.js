@@ -1,5 +1,5 @@
 const dataService = {
-  carregarDados: async () => {
+  loadData: async () => {
     try {
       const response = await fetch("http://localhost:8071/api/data");
       const obj = await response.json();
@@ -9,7 +9,7 @@ const dataService = {
       return [];
     }
   },
-  salvarDados: async (novosDados) => {
+  saveData: async (novosDados) => {
     try {
       const response = await fetch("http://localhost:8071/api/save", {
         method: "POST",

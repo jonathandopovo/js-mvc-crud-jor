@@ -1,18 +1,18 @@
-import { formNewUser } from "./form-new-user.js";
-import { resultView } from "./result-view.js";
+import { formComponent } from "./form-component.js";
+import { tableComponent } from "./table-component.js";
 
-const viewController = {
-  build: () => {
-    formNewUser.build();
-    resultView.build();
+const view = {
+  render: () => {
+    formComponent.build();
+    tableComponent.build();
   },
-  update: (userArray, userToUpdate) => {
-    resultView.update(userArray);
-    formNewUser.update(userToUpdate);
+  update: (users, user) => {
+    tableComponent.update(users);
+    formComponent.update(user);
   },
-  updateForm: (userToUpdate) => {
-    formNewUser.update(userToUpdate);
+  updateForm: (user) => {
+    formComponent.update(user);
   },
 };
 
-export { viewController };
+export { view };

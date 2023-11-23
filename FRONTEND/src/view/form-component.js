@@ -1,4 +1,4 @@
-const formNewUser = {
+const formComponent = {
   build: () => {
     const root = document.getElementById("root");
     const formTemplate = document.createElement("form");
@@ -27,4 +27,4 @@ const formNewUser = {
     senha.value = user.getSenha();
   },
 };
-export { formNewUser };
+export { formComponent };

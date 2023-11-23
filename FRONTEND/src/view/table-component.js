@@ -1,4 +1,4 @@
-const resultView = {
+const tableComponent = {
   build: () => {
     const root = document.getElementById("root");
     const tableResult = document.createElement("table");
@@ -43,4 +43,4 @@ const resultView = {
     }
   },
 };
-export { resultView };
+export { tableComponent };
