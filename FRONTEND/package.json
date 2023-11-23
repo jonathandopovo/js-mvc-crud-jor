@@ -1,17 +1,16 @@
 {
-  "name": "myserver",
+  "name": "myfrontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Config da aplicação",
+  "main": "index.html",
   "scripts": {
-    "start": "node server.js",
+    "start": "parcel --port 5027 --open chrome index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "parcel-bundler": "^1.6.1"
   }
 }
