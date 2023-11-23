@@ -1,5 +1,5 @@
 const dataService = {
-  loadData: async () => {
+  load: async () => {
     try {
       const response = await fetch("http://localhost:8071/api/data");
       const obj = await response.json();

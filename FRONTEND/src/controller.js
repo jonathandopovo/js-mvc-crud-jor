@@ -9,7 +9,7 @@ let submitState = submitType.NEW;
 let currentId = null;
 
 const loadData = async () => {
-  const temp = await dataService.loadData();
+  const temp = await dataService.load();
   data = temp.map(
     (usuario) =>
       new Usuario(usuario.nome, usuario.idade, usuario.login, usuario.senha)
@@ -47,6 +47,7 @@ const updateUser = (index, userToUpdate) => {
 
 const deleteUser = (index) => {
   data.splice(index, 1);
+  dataService.saveData(data);
 };
 
 const handleClick = (event) => {

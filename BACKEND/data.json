@@ -6,30 +6,6 @@
     "senha": "jonathan"
   },
   {
-    "nome": "Joao Lucas",
-    "idade": 17,
-    "login": "joaolucas",
-    "senha": "joaolucas"
-  },
-  {
-    "nome": "Leo",
-    "idade": 18,
-    "login": "leo",
-    "senha": "leo"
-  },
-  {
-    "nome": "Maicon",
-    "idade": 21,
-    "login": "maicon",
-    "senha": "maicon"
-  },
-  {
-    "nome": "Natan",
-    "idade": 20,
-    "login": "natan",
-    "senha": "natan"
-  },
-  {
     "nome": "João Bosco",
     "idade": 17,
     "login": "joaobosco",
@@ -58,35 +34,5 @@
     "idade": 18,
     "login": "thaissa",
     "senha": "thaissa"
-  },
-  {
-    "nome": "Teste",
-    "idade": 12,
-    "login": "Teste",
-    "senha": "Teste"
-  },
-  {
-    "nome": "1",
-    "idade": 1,
-    "login": "1",
-    "senha": "1"
-  },
-  {
-    "nome": "1",
-    "idade": 1,
-    "login": "1",
-    "senha": "1"
-  },
-  {
-    "nome": "1",
-    "idade": 1,
-    "login": "1",
-    "senha": "1"
-  },
-  {
-    "nome": "1",
-    "idade": 1,
-    "login": "1",
-    "senha": "1"
   }
 ]
