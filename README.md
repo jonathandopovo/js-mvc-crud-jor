@@ -7,20 +7,14 @@
 1. Para rodar o projeto, certifique-se de ter o <a href="https://nodejs.org/en">Node.js</a> instalado em sua maquina.
     > Projeto desenvolvido na versão 18.16.0 do Node.js
 
-2. Abra o terminal raiz do diretório, em seguida mude o caminho para o "BACKEND":
-
+2. Instale as dependências do projeto com o comando:
     ```
-    cd BACKEND
+    npm install
     ```
-3. Instale as depencencias do projeto ainda na basta "BACKEND":
-    ```
-    npm i
-    ```
-4. Suba o servidor:
+3. Agora suba o servidor:
     ```
     npm start
     ```
-5. Agora basta abrir o arquivo index.html na pasta raiz do diretório.
 
 ### Preview
 
