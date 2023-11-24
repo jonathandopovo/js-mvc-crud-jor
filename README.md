@@ -5,17 +5,7 @@
 
 
 ### Como rodar
-1. Para rodar o projeto, certifique-se de ter o <a href="https://nodejs.org/en">Node.js</a> instalado em sua maquina.
-    > Projeto desenvolvido na versão 18.16.0 do Node.js
-
-2. Instale as dependências do projeto com o comando:
-    ```
-    npm install
-    ```
-3. Agora suba o servidor:
-    ```
-    npm start
-    ```
+1. Baixe o projeto e clique em "run.bat".
 
 ### Preview
 
